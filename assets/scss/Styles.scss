@@ -1,0 +1,173 @@
+body {
+    background: #f2f2f2 !important;
+}
+
+//Navbar 
+.navbar {
+    max-width: 1920px;
+    width: 80%;
+    margin: auto;
+    background: transparent;
+}
+
+.navbar-brand {
+    color: #fff;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+.nav-link {
+    color: #fff;
+    font-size: 12px;
+}
+
+//Header
+.header {
+    height: 500px;
+    width: 100%;
+    background: url('../images/image-hero-desktop.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+// Container 1
+.project-header {
+    border-radius: 10px;
+    margin-top: -120px;
+    background: #fff;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    position: relative;
+    text-align: center;
+    img {
+        position: absolute;
+        left: 50%;
+        transform: translate(-75%, -60px);
+    }
+    h2 {
+        font-weight: 900;
+    }
+}
+
+.btn-primary {
+    border-radius: 40px;
+    font-size: 13px;
+    padding: 12px 22px;
+    border: none;
+}
+
+.btn-dark {
+    border: none;
+    background-color: #ccc;
+    border-radius: 40px;
+    padding-left: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    position: relative;
+    &:before {
+        content: "\f02e";
+        font-family: "Font Awesome 5 Free";
+        font-weight: 900;
+        border: 10px;
+        color: black !important;
+        padding: 10px 15px;
+        background-color: #5a5555;
+        border-radius: 50%;
+        position: absolute;
+        left: 0;
+        margin-top: -10px
+    }
+}
+
+//Container 2
+.project-stats {
+    border-radius: 10px;
+    background: #fff;
+    margin-top: 10px;
+    padding: 25px 0 25px 0;
+    text-align: center;
+}
+
+.vl {
+    border-left: 1px solid silver;
+    height: 80px;
+}
+
+.progress-container {
+    margin-top: 25px;
+    background-color: rgb(192, 192, 192);
+    width: 80%;
+    border-radius: 15px;
+    padding: 0;
+}
+
+.progress-bar {
+    background-color: #06a2a7;
+    color: white;
+    padding: 1%;
+    text-align: right;
+    border-radius: 15px;
+    width: 80%;
+}
+
+//Container 3
+.about-project {
+    border-radius: 10px;
+    background: #fff;
+    margin-top: 10px;
+    padding-top: 15px;
+}
+
+.bamboo-stand {
+    border-radius: 10px;
+    border: 1px solid #bbb;
+    padding: 10px 15px;
+    .pledge {
+        text-align: right;
+        color: #0d6efd
+    }
+    .bamboo-button {
+        width: 150px;
+        float: right;
+        text-align: center;
+    }
+}
+
+.black-stand {
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 1px solid #bbb;
+    padding: 10px 15px;
+    .pledge {
+        text-align: right;
+        color: #0d6efd
+    }
+    .bamboo-button {
+        width: 150px;
+        float: right;
+        text-align: center;
+    }
+}
+
+.special-edition {
+    color: silver;
+    margin-top: 15px;
+    border-radius: 10px;
+    border: 1px solid #bbb;
+    padding: 10px 15px;
+    .pledge {
+        text-align: right;
+        color: #5c84c0e1
+    }
+    .btn-secondary {
+        border-radius: 40px;
+        font-size: 13px;
+        padding: 12px 22px;
+    }
+    .bamboo-button {
+        width: 150px;
+        float: right;
+        text-align: center;
+    }
+}
